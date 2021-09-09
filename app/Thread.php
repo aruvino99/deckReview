@@ -4,15 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tag extends Model
+class Thread extends Model
 {
     //
     //投稿テーブルのモデル
-    protected $table = 'tags';
+    protected $table = 'threads';
     protected $primaryKey = 'id';
     public $timestamps = false;
     
-    public function tags() {
-        return $this->belongsToMany(app/Thread);
+    public function threads() {
+        return $this->belongsToMany(app/Tag);
     }
 }
