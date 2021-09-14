@@ -17,11 +17,11 @@
                     <a href="/thread/{{$thread->id}}" style="text-decoration: none; color: black;">
                         <div class="card">
                             <div class="card-body">
-                                <p class="card-text">User : {{ $users[($thread->user_id - 1)]->name }}</p>
+                                <p class="card-text">User : {{ $users[($thread->user_id - 2)]->name }}</p>
                                 <h5 class="card-title">{{ $thread->title }}</h5>
                             </div>
                             <div class="small card-footer text-muted text-right">
-                                {{ $thread->updated_at }}
+                                {{$thread->updated_at}}
                             </div>
                         </div>
                         <br>

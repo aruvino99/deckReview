@@ -12,7 +12,7 @@ class Tag extends Model
     protected $primaryKey = 'id';
     public $timestamps = false;
     
-    public function tags() {
-        return $this->belongsToMany(app/Thread);
+    public function threads() {
+        return $this->belongsToMany('App\Thread','thread_tag_chains');
     }
 }

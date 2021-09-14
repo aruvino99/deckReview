@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/php-web/deckReview/resources/views/create.blade.php</file>
+            <file>file:/C:/php-web/deckReview/routes/web.php</file>
+            <file>file:/C:/php-web/deckReview/app/Tag.php</file>
+            <file>file:/C:/php-web/deckReview/database/seeds/DatabaseSeeder.php</file>
+            <file>file:/C:/php-web/deckReview/resources/views/thread.blade.php</file>
+            <file>file:/C:/php-web/deckReview/database/seeds/ThreadsTableSeeder.php</file>
+            <file>file:/C:/php-web/deckReview/database/migrations/2021_09_09_044517_create_tags_table.php</file>
+            <file>file:/C:/php-web/deckReview/resources/views/welcome.blade.php</file>
+            <file>file:/C:/php-web/deckReview/app/Http/Controllers/DeckReviewDetailController.php</file>
+            <file>file:/C:/php-web/deckReview/app/Http/Controllers/DeckReviewListController.php</file>
+            <file>file:/C:/php-web/deckReview/app/Comment.php</file>
+            <file>file:/C:/php-web/deckReview/app/Http/Controllers/Controller.php</file>
+            <file>file:/C:/php-web/deckReview/config/database.php</file>
+            <file>file:/C:/php-web/deckReview/database/seeds/TagsTableSeeder.php</file>
+            <file>file:/C:/php-web/deckReview/database/seeds/UsersTableSeeder.php</file>
+            <file>file:/C:/php-web/deckReview/app/Http/Controllers/DeckReviewController.php</file>
+            <file>file:/C:/php-web/deckReview/app/Thread.php</file>
+            <file>file:/C:/php-web/deckReview/app/Http/Controllers/DeckReviewPostController.php</file>
+            <file>file:/C:/php-web/deckReview/database/migrations/2021_09_08_074054_create_threads_table.php</file>
+            <file>file:/C:/php-web/deckReview/app/User.php</file>
+            <file>file:/C:/php-web/deckReview/storage/framework/views/1b08aee40e6d33e1223f360aa6fdf46d8e2b9576.php</file>
+            <file>file:/C:/php-web/deckReview/database/migrations/2021_09_09_044637_create_comments_table.php</file>
+            <file>file:/C:/php-web/deckReview/database/migrations/2021_09_09_044857_create_thread_tag_chains_table.php</file>
+            <file>file:/C:/php-web/deckReview/resources/views/detail.blade.php</file>
+            <file>file:/C:/php-web/deckReview/resources/views/home.blade.php</file>
+            <file>file:/C:/php-web/deckReview/config/app.php</file>
+        </group>
+    </open-files>
+</project-private>

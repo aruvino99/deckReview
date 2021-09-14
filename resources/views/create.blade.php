@@ -13,7 +13,7 @@
             <div class="card">
 
                 <div class="card-header">
-                    <a href="/" style="text-decoration: none; color: black;"><button type="button" class="btn btn-secondary btn-sm">Back</button></a>
+                    <a href="/thread" style="text-decoration: none; color: black;"><button type="button" class="btn btn-secondary btn-sm">Back</button></a>
                 </div>
 
                 <form action="/thread" method="post" enctype="multipart/form-data">

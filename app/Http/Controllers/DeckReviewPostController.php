@@ -12,7 +12,7 @@ class DeckReviewPostController extends Controller
         $stitle = '';
         $sdetail = '';
         $simage = '';
-        return view('deckReviewPost', compact('stitle','sdetail','simage'));
+        return view('create', compact('stitle','sdetail','simage'));
     }
     public function post(Request $request)
     {
@@ -28,7 +28,7 @@ class DeckReviewPostController extends Controller
         $content->simage = $simage;
         
         $content->save();
-        return view('deckReviewPost', compact('stitle','sdetail','simage'));
+        return view('create', compact('stitle','sdetail','simage'));
     }
 }
 

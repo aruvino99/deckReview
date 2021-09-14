@@ -13,6 +13,9 @@ class CreateCommentsTable extends Migration
      */
     public function up()
     {
+        //外部キー制約の無効
+        Schema::disableForeignKeyConstraints();
+        
         //投稿に対するコメントテーブル
         Schema::create('comments', function (Blueprint $table) {
             //コメントID
@@ -26,6 +29,9 @@ class CreateCommentsTable extends Migration
             $table->unsignedBigInteger('user_id')->index();
             $table->foreign('user_id')->references('id')->on('users');
         });
+        
+        //一時的に無効にした外部キー制約を有効にする
+        Schema::enableForeignKeyConstraints();
     }
 
     /**

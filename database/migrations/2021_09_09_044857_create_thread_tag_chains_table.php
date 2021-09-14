@@ -12,7 +12,11 @@ class CreateThreadTagChainsTable extends Migration
      * @return void
      */
     public function up()
+    
     {
+        //外部キー制約の無効
+        Schema::disableForeignKeyConstraints();
+        
         //デッキとコメントの中間テーブル
         Schema::create('thread_tag_chains', function (Blueprint $table) {
             //thread外部キー制約
@@ -24,6 +28,9 @@ class CreateThreadTagChainsTable extends Migration
             //複合主キー
             $table->primary(['thread_id','tag_id']);
         });
+        
+        //一時的に無効にした外部キー制約を有効にする
+        Schema::enableForeignKeyConstraints();
     }
 
     /**

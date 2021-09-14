@@ -13,6 +13,9 @@ class CreateTagsTable extends Migration
      */
     public function up()
     {
+        //外部キー制約の無効
+        Schema::disableForeignKeyConstraints();
+        
         //投稿に付けるタグテーブル
         Schema::create('tags', function (Blueprint $table) {
             //タグID
@@ -21,6 +24,9 @@ class CreateTagsTable extends Migration
             $table->string('name');
             $table->timestamps();
         });
+        
+        //一時的に無効にした外部キー制約を有効にする
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
